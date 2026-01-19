@@ -923,7 +923,7 @@ if __name__ == "__main__":
     
     # === CSAK EZ A RÉSZ VÁLTOZOTT ===
     # Railway automatikusan biztosítja a környezeti változót
-    BOT_TOKEN = os.environ.get("DISCORD_TOKEN", "MTQ2MjI3MjY2NjgzMTU1MjY3NQ.GAkSQj.lutglIOC_WtVFLoeGCFLTFhJj5OqHOFgl1l-rY")
+    BOT_TOKEN = os.environ.get("DISCORD_TOKEN", "MTQ2MjI3MjY2NjgzMTU1MjY3NQ.GoiaUS.xEp2m-xGsVf54c6ea3z1YKYEjf03i5gdGkf37w")
     # =================================
     
     if not BOT_TOKEN:
@@ -940,4 +940,5 @@ if __name__ == "__main__":
     except discord.LoginFailure:
         print("❌ Invalid Discord bot token!")
     except Exception as e:
+
         print(f"❌ Error: {e}")
